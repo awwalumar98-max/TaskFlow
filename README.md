@@ -37,7 +37,7 @@ taskflow/
 | Member | GitHub Username | Task |
 |--------|----------------|------|
 | Awwal Umar Garba | CIS/STE/22/1104 | Repo setup, base skeleton, render function |
-| Member 1 | @username | Header section (title & tagline) |
+| Muhammad Nasir Abubakar | CIS/STe/22/1103| Header section (title & tagline) and also Provided Network for the team Work
 | Member 2 | @username | Task input form |
 | Member 3 | @username | Task list container |
 | Member 4 | @username | Footer section |
