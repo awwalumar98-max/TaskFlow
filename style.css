@@ -92,3 +92,14 @@
 @media (max-width: 600px) {
   /* Add your mobile styles here */
 }
+
+  footer {
+  text-align: center;
+  padding: 16px;
+  background-color: #1a1a2e;
+  color: #aaa;
+  font-size: 14px;
+  margin-top: 40px;
+  border-top: 1px solid #333;
+}
+
