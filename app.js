@@ -32,7 +32,13 @@ function addTask(taskText) {
    - Calls renderTasks() after toggling
    ============================================================ */
 function toggleTask(taskId) {
-  // Write your code here
+     const task = tasks.find(t=> t.id === taskId);
+
+      if (task) {
+        task.completed = !task.completed;
+      }
+
+       renderTasks();
 }
 
 
