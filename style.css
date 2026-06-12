@@ -9,8 +9,31 @@
 /* ============================================================
    MEMBER 5 — Basic Layout (flexbox/grid, spacing, fonts)
    ============================================================ */
-/* Add your layout styles here */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  flex: 1;
+}
 
 /* ============================================================
    MEMBER 6 — Color Theme & Button Styles
